@@ -1,6 +1,5 @@
 input: .
 output: .retype
-url: docs.vatcar.net # Add your website here
 branding:
   title: Project Name
   label: Docs
