@@ -25,6 +25,7 @@ Released: May 21, 2024
 - [x] Tickets page no longer shows non-existent closed tickets
 - [x] Caribbean FSS and Hit Squad now show at the bottom of the FIR list
 - [x] Updated Caribbean FSS logo
++++
 
 ## v1.0.1
 
@@ -38,6 +39,7 @@ Released: May 21, 2024
 - [x] Removed custom hyperlink formatting for warning bar as it affected the FAQ page
 - [x] Ticket assignment no longer shows staff members duplicated
 - [x] Fixed a fatal bug in CBT page
++++
 
 ## v1.0.0
 
