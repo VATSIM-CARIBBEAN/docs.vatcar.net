@@ -2,7 +2,7 @@ input: .
 output: .retype
 url: docs.vatcar.net
 branding:
-  title: Project Name
+  title: VATSIM Caribbean Division
   label: Docs
 links:
   - text: Getting Started
