@@ -1,6 +1,6 @@
 ---
 label: "Frequently Asked Questions"
-icon: person
+icon: question
 order: 60
 ---
 
