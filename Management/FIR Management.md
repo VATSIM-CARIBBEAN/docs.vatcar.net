@@ -1,6 +1,6 @@
 ---
 label: "FIR Management"
-icon: tool
+icon: tools
 order: 90
 ---
 

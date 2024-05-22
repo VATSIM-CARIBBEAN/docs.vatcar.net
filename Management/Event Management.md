@@ -1,6 +1,6 @@
 ---
 label: "Event Management"
-icon: tool
+icon: calendar
 order: 80
 ---
 
