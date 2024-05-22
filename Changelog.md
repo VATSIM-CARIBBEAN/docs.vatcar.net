@@ -8,6 +8,8 @@ order: 50
 
 You will find change logs for the website here.
 
+---
+
 ## v1.0.2 [!badge variant="info" text="LATEST"]
 
 Released: May 22, 2024
@@ -27,6 +29,8 @@ Released: May 22, 2024
 - [x] Updated Caribbean FSS logo
 +++
 
+---
+
 ## v1.0.1
 
 Released: May 21, 2024
@@ -41,8 +45,12 @@ Released: May 21, 2024
 - [x] Fixed a fatal bug in CBT page
 +++
 
+---
+
 ## v1.0.0
 
 Released: May 20, 2024
 
 Initial Release
+
+---
