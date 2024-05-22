@@ -5,7 +5,7 @@ branding:
   title: VATSIM Caribbean Division
   label: Docs
 links:
-  - text: Getting Started
-    link: https://retype.com/guides/getting-started/
+  - text: Home
+    link: https://www.vatcar.net/
 footer:
-  copyright: "&copy; Copyright . All rights reserved."
+  copyright: "Copyright &copy; 2024 VATSIM Caribbean"
