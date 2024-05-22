@@ -1,7 +1,7 @@
 ---
 label: "My VATCAR"
 icon: person
-order: 100
+order: 90
 ---
 
 # My VATCAR
