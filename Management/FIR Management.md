@@ -63,6 +63,10 @@ This page allows Air Traffic Managers to assign roles to their members. This wil
 
 This page allows you to change your website URL as well as the facility description that is shown to everybody under the FIR tab. The API Keys will allow your webmasters to access certain API endpoints available to you from VATCAR.
 
+!!!warning Warning
+API endpoints are current unavailable as we transition. We will notify you once it is available.
+!!!
+
 ## Facility Callsigns
 
 This page is where you manage all your controlled facility's callsigns. In order for the activity tracker to work properly, you must ensure that your controlled facility's callsigns are listed on this page. To create a new callsign, you will only have to enter the facility prefix, removing anything after the underscore (_). Additionally, you have to enter the type of facility, whether it is an Airport, Flight Service Station, or Center facility. An airport would be for facilities ranging from Delivery (DEL) to Approach/Departure (APP/DEP).
