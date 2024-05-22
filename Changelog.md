@@ -9,7 +9,7 @@ order: 50
 You will find all the updates that have happened on the website here.
 
 !!!
-Have a suggestion? E-mail j.swan@vatcar.net with your suggestion! :icon-comment:
+Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 !!!
 
 ---
