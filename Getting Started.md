@@ -18,7 +18,7 @@ After completing Step 1, you can now navigate to the Exam Center. If you have no
 
 ## Step 3: Request to Transfer or Visit
 
-Once you complete the entry exam, you are now able to visit or transfer to a facility in VATCAR! Navigate to [My VATCAR](#https://docs.vatcar.net/myvatcar/) and select either [Visiting Requests](https://docs.vatcar.net/myvatcar/#visiting-requests) or [Transfer Requests](https://docs.vatcar.net/myvatcar/#transfer-requests) based on your goal. 
+Once you complete the entry exam, you are now able to visit or transfer to a facility in VATCAR! Navigate to [My VATCAR](https://docs.vatcar.net/myvatcar/) and select either Visiting Requests or Transfer Requests based on your goal. 
 
 ## Step 4: Welcome!
 
