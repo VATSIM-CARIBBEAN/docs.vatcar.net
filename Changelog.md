@@ -1,7 +1,7 @@
 ---
 label: "Changelog"
 icon: log
-order: 65
+order: 50
 ---
 
 # Changelog
