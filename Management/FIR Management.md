@@ -1,6 +1,6 @@
 ---
 label: "FIR Management"
-icon: tools
+icon: briefcase
 order: 90
 ---
 

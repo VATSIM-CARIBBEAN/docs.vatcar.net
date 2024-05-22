@@ -1,6 +1,6 @@
 ---
 label: "My Students"
-icon: mortar-board
+icon: person-add
 order: 70
 ---
 

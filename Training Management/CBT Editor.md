@@ -1,6 +1,6 @@
 ---
 label: "CBT Editor"
-icon: mortar-board
+icon: browser
 order: 80
 ---
 

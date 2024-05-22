@@ -1,6 +1,6 @@
 ---
 label: "OTS Exams"
-icon: book
+icon: zap
 order: 60
 ---
 
