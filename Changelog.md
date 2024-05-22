@@ -6,7 +6,7 @@ order: 50
 
 # Changelog
 
-You will find change logs for the website here.
+You will find all the updates that have happened on the website here.
 
 ---
 
