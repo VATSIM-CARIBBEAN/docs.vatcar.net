@@ -25,3 +25,26 @@ You can see your last 5 connections to VATSIM as an air traffic controller as we
 
 ### Notifications
 
+This is where you can view all your notifications, new or past. You will receive a notification when you have been assigned an exam, any updates to the exam, any updates to VATCAR documents, as well as any broadcasts from your facility or division staff. When you join a new facility, whether a visitor or home controller, you will be able to see all past notifications of that respective facility so that you may see recent updates.
+
+### Email Preferences
+
+By default, you will not receive any emails for most notifications. You can choose to opt-in to different e-mail categories you would like to receive. We recommend you select "Training" and your home facility to keep yourself updated with your training data as well as any important announcements from your facility.
+
+## Training System
+
+### CBTs - Computer Based Training
+
+This is where you will find your computer based training data. To pick a facility's training syllabus, you can click on the dropdown menu at the top right. You will only be able to see facilities that you are at home or visiting.
+
+The VCAC facility stands for VATCAR Academy. Prior to joining a facility, you will be asked to view **Block 1: WELCOME TO VATCAR**. The chapters will give you a general understanding of the Caribbean Division.
+
+The first 4 blocks of each facility computer based training modules are restricted based on your rating. S1 controllers can access Block 1, S2 controllers can access Block 2, S3 controllers can access Block 3, and C1 controllers can access Blocks 4 and above. You may not skip chapters, as they must be completed in chronological order. The chapters will be marked done as you finish going through them. You will always be able to go back to any previous chapters.
+
+### Exam Center
+
+This is your hub for all exams you will take in VATCAR. If an instructor has assigned you an exam, it will show up here. You will be able to view your previous exams as well the score you have received. If you pass the exam, you will be able to review the questions and answers you have submitted.
+
+Each exam has a deadline. Should you miss the deadline, you will not be able to take the exam and must be re-assigned. If you fail the exam, you are given a retake opportunity automatically, after a set number of days assigned by your instructor. By default, this is set to 3 days. Your instructor may re-assign the exam before the required number of days has passed.
+
+If you are new to VATCAR, you will be prompted to complete the Entry Exam. A series of yes or no questions, this exam is your acknowledge of your understanding of VATCAR regulations as well as your intent to abide by them. You may only complete this exam after completing the Academy associated [computer based training](#CBTs - Computer Based Training).
