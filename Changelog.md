@@ -51,6 +51,8 @@ Released: May 21, 2024
 
 Released: May 20, 2024
 
-Initial Release
++++ New
+- [x] Initial `v1.0.0` release
++++
 
 ---
