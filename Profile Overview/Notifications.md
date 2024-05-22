@@ -4,4 +4,4 @@ icon: bell
 order: 90
 ---
 
-Explanation for this page.
+See [here](#https://docs.vatcar.net/profile-overview/myvatcar/#notifications).

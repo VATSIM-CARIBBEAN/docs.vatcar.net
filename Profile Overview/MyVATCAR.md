@@ -47,4 +47,20 @@ This is your hub for all exams you will take in VATCAR. If an instructor has ass
 
 Each exam has a deadline. Should you miss the deadline, you will not be able to take the exam and must be re-assigned. If you fail the exam, you are given a retake opportunity automatically, after a set number of days assigned by your instructor. By default, this is set to 3 days. Your instructor may re-assign the exam before the required number of days has passed.
 
-If you are new to VATCAR, you will be prompted to complete the Entry Exam. A series of yes or no questions, this exam is your acknowledge of your understanding of VATCAR regulations as well as your intent to abide by them. You may only complete this exam after completing the Academy associated [computer based training](#CBTs - Computer Based Training).
+If you are new to VATCAR, you will be prompted to complete the Entry Exam. A series of yes or no questions, this exam is your acknowledge of your understanding of VATCAR regulations as well as your intent to abide by them. You may only complete this exam after completing the Academy associated [computer based training](#cbts---computer-based-training).
+
+## Self Service System
+
+### Visiting Requests
+
+For inter-division visiting requests, you can submit a form on this page. If you are eligible to visit, you will be able to fill out the form. If you are ineligible, the page will show you the criteria you fail to meet. Unfortunately, per the VATSIM GCAP, we will be unable to waive any of the criterias you do not meet.
+
+### Transfer Requests
+
+If you are looking to change your home facility, you can request to transfer on this page. If you meet the requirements to transfer, you will see a form in which you can select your intended facility and a description of why you want to transfer. If you do not meet the requirements, you will see a list of requirements as well as which criteria you fail to meet. Unfortunately, per the VATSIM GCAP, we will be unable to waive any of the criterias you do not meet.
+
+### Support Requests
+
+If you need help with anything related to VATCAR, you can always come here and open a new ticket. All VATSIM division staff members and facility air traffic managers can view your ticket and further assist you. While you have the option to individually email, opening a ticket allows multiple staff members that are capable to assist you, resulting in a better response time.
+
+There is no such thing as a bad ticket!
