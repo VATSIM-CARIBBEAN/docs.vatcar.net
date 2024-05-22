@@ -6,4 +6,6 @@ order: 60
 
 # Frequently Asked Questions
 
-To be determined.
+## Q: Where can I access the API endpoints
+
+This is currently under development. Once we have fully transitioned over and established appropriate endpoints for use, we will provide an API documentation.
