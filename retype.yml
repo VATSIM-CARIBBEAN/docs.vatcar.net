@@ -2,7 +2,7 @@ input: .
 output: .retype
 url: docs.vatcar.net
 branding:
-  title: VATSIM Caribbean Division
+  title: VATSIM Caribbean
   label: Docs
 links:
   - text: Home
