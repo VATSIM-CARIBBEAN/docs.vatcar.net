@@ -12,8 +12,8 @@ This is your individual profile. All VATCAR related systems that directly affect
 
 This documentation will go over each page that will guide you with necessary information you will need to navigate through.
 
-# My Settings
-## Profile
+### My Settings
+#### Profile
 
 This is your landing page. You will be shown your name, email address that is associated with VATSIM, your current rating, your current visiting ratio, and your current facility in VATCAR.
 
@@ -21,5 +21,5 @@ The visiting ratio shows how many hours you have controlled at your home facilit
 
 You can see your last 5 connections to VATSIM as an air traffic controller as well as your total hours based on each rating.
 
-## Notifications
+#### Notifications
 
