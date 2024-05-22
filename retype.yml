@@ -5,7 +5,7 @@ branding:
   title: VATSIM Caribbean
   label: Docs
 links:
-  - text: Home
+  - text: Back to VATCAR
     link: https://www.vatcar.net/
 footer:
   copyright: "Copyright &copy; 2024 VATSIM Caribbean"
