@@ -12,6 +12,6 @@ This page will allow you to draft an email and send it to a facility or division
 Selecting `ALL WEBSITE MEMBERS` will **BYPASS GDPR.** Use only if absolutely necessary.
 !!!
 
-!!!info Info
+!!!primary Info
 If the user's are not subscribed to e-mail notifications, they will only receive a broadcast notification on the website.
 !!!
