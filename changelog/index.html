@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.769729203321">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.769729299820">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.769729203321" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.769729299820" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.769729203321" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.769729299820" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.769729203321" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.769729299820" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -179,23 +179,27 @@
     </h2>
 </doc-anchor-target>
 <p>Released: May 21, 2024</p>
-<Tabs>
-  <TabItem value="new" label="New" default>
-    - [x] Tickets and transfer forms show remaining characters needed
-    - [x] Added Hit Squad - VATCAR6 has ATM-like permissions for Hit Squad
-  </TabItem>
-  <TabItem value="updated" label="Updated">
-    - [x] Upcoming events on front page fixed
-    - [x] Visiting ratio displays correctly
-    - [x] Training notes no longer has a backdating option
-    - [x] Remove button on controller page now shows appropriate text
-    - [x] OTS exams can now be viewed by anyone that are able to manage training exams
-    - [x] Yellow banner on front page has a better sentence
-    - [x] Tickets page no longer shows non-existent closed tickets
-    - [x] Caribbean FSS and Hit Squad now show at the bottom of the FIR list
-    - [x] Updated Caribbean FSS logo
-  </TabItem>
-</Tabs>
+<doc-tabs>
+<doc-tab v-cloak id="new">
+<template #title>New</template>
+<ul class="contains-task-list">
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Tickets and transfer forms show remaining characters needed</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Added Hit Squad - VATCAR6 has ATM-like permissions for Hit Squad</li>
+</ul>
+</doc-tab>
+<doc-tab v-cloak id="updated">
+<template #title>Updated</template>
+<ul class="contains-task-list">
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Upcoming events on front page fixed</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Visiting ratio displays correctly</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Training notes no longer has a backdating option</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Remove button on controller page now shows appropriate text</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> OTS exams can now be viewed by anyone that are able to manage training exams</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Yellow banner on front page has a better sentence</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Tickets page no longer shows non-existent closed tickets</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Caribbean FSS and Hit Squad now show at the bottom of the FIR list</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Updated Caribbean FSS logo</li>
+</ul>
 <doc-anchor-target id="v101">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#v101">#</doc-anchor-trigger>
@@ -203,17 +207,18 @@
     </h2>
 </doc-anchor-target>
 <p>Released: May 21, 2024</p>
-<Tabs>
-  <TabItem value="updated" label="Updated">
-    - [x] Documents page should be accessible to users not logged in anymore
-    - [x] FIR members page is now accessible when users are not logged in. Only management team is visible
-    - [x] Entry exam notification no longer pops up when it is already assigned
-    - [x] Temporarily removed uploading/viewing ticket images until resolved
-    - [x] Removed custom hyperlink formatting for warning bar as it affected the FAQ page
-    - [x] Ticket assignment no longer shows staff members duplicated
-    - [x] Fixed a fatal bug in CBT page
-  </TabItem>
-</Tabs>
+</doc-tab>
+<doc-tab v-cloak id="updated">
+<template #title>Updated</template>
+<ul class="contains-task-list">
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Documents page should be accessible to users not logged in anymore</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> FIR members page is now accessible when users are not logged in. Only management team is visible</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Entry exam notification no longer pops up when it is already assigned</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Temporarily removed uploading/viewing ticket images until resolved</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Removed custom hyperlink formatting for warning bar as it affected the FAQ page</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Ticket assignment no longer shows staff members duplicated</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Fixed a fatal bug in CBT page</li>
+</ul>
 <doc-anchor-target id="v100">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#v100">#</doc-anchor-trigger>
@@ -222,6 +227,7 @@
 </doc-anchor-target>
 <p>Released: May 20, 2024</p>
 <p>Initial Release</p>
+</doc-tab>
 
                                 
                                 <!-- Required only on API pages -->
