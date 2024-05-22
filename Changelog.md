@@ -10,7 +10,7 @@ You will find change logs for the website here.
 
 ## v1.0.2 [!badge variant="info" text="LATEST"]
 
-Released: May 21, 2024
+Released: May 22, 2024
 
 +++ New
 - [x] Tickets and transfer forms show remaining characters needed
