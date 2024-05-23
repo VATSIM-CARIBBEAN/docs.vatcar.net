@@ -1,6 +1,6 @@
 ---
 label: "Getting Started"
-icon: info
+icon: rocket
 order: 95
 ---
 
