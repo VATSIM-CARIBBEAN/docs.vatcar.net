@@ -17,14 +17,8 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 ## Known Bugs :icon-bug:
 
-### Current
-
-+++ In Progress :icon-clock:
++++ Current :icon-clock:
 - [ ] Exam statistics page leads to nowhere
-+++
-
-### Resolved in latest or upcoming release
-
 +++ Resolved :icon-check:
 - [x] CBT page crashes if there are multiple blocks with no chapters
 +++
