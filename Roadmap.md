@@ -17,6 +17,8 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 ## Known Bugs :icon-bug:
 
+Resolved bugs will be updated in the upcoming release version and will be posted on changelogs.
+
 +++ Current :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
