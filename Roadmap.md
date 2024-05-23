@@ -23,4 +23,6 @@ Resolved bugs will be updated in the upcoming release version and will be posted
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
 - [x] CBT page crashes if there are multiple blocks with no chapters
+- [x] Unauthorized login text updated
+- [x] Academy users can now apply to visit facilities, they do not have to be a home controller here
 +++
