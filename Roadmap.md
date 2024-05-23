@@ -24,7 +24,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 Resolved bugs will be updated in the upcoming release version and will be posted on changelogs.
 
-+++ Current :icon-clock:
++++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
 - [ ] Delete button is visible on other staff's reply on tickets, should not be.
