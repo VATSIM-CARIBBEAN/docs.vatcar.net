@@ -11,7 +11,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
-- [] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter.
+- [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter.
 +++ Completed :icon-check:
 +++
 
@@ -20,7 +20,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 ### Current
 
 +++ In Progress :icon-clock:
-- [] Exam statistics page leads to nowhere
+- [ ] Exam statistics page leads to nowhere
 +++
 
 ### Resolved in latest or upcoming release
