@@ -32,6 +32,7 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 - [ ] Exam statistics page leads to nowhere
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
 - [ ] Delete button is visible on other staff's reply on tickets, should not be.
+- [ ] Exam multiple choice options should be randomized
 +++ Resolved :icon-check:
 - [x] CBT page crashes if there are multiple blocks with no chapters
 - [x] Unauthorized login text updated
