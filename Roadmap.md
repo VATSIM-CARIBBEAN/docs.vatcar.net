@@ -11,8 +11,11 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
+- [ ] Update OTS form
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter.
 - [ ] Booking system [!badge variant="ghost" text="Backlog"]
+- [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
+- [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 - [ ] Make flight board look cooler, have it's own page for a full list [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
 +++
@@ -23,6 +26,8 @@ Resolved bugs will be updated in the upcoming release version and will be posted
 
 +++ Current :icon-clock:
 - [ ] Exam statistics page leads to nowhere
+- [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
+- [ ] Delete button is visible on other staff's reply on tickets, should not be.
 +++ Resolved :icon-check:
 - [x] CBT page crashes if there are multiple blocks with no chapters
 - [x] Unauthorized login text updated
