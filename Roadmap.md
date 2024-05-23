@@ -24,6 +24,10 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 Resolved bugs will be updated in the upcoming release version and will be posted on changelogs.
 
+!!!danger
+If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net with a detailed description.
+!!!
+
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
