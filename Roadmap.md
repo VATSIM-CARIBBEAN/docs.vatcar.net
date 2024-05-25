@@ -18,6 +18,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 - [ ] Make flight board look cooler, have it's own page for a full list [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
+- [ ] Visiting ratio now accounts for all ATC connections outside of VATCAR
 +++
 
 ## Known Bugs :icon-bug:
