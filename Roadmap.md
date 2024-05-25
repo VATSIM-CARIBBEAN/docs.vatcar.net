@@ -13,7 +13,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 +++ In Progress :icon-clock:
 - [ ] Update OTS form
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter.
-- [ ] Added access to the docs website somewhere on the main website
+- [ ] Add access to the docs website somewhere on the main website
 - [ ] Booking system [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
