@@ -19,6 +19,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Make flight board look cooler, have it's own page for a full list [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
 - [ ] Visiting ratio now accounts for all ATC connections outside of VATCAR
+- [ ] Announcements restricted to logged in users on
 +++
 
 ## Known Bugs :icon-bug:
