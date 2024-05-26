@@ -12,15 +12,15 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 +++ In Progress :icon-clock:
 - [ ] Update OTS form
-- [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter.
-- [ ] Add access to the docs website somewhere on the main website
+- [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Booking system [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 - [ ] Make flight board look cooler, have it's own page for a full list [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
-- [ ] Visiting ratio now accounts for all ATC connections outside of VATCAR
-- [ ] Announcements restricted to logged in users on
+- [x] Visiting ratio now accounts for all ATC connections outside of VATCAR
+- [x] Announcements restricted to logged in users on
+- [x] Add access to the docs website somewhere on the main website
 +++
 
 ## Known Bugs :icon-bug:
