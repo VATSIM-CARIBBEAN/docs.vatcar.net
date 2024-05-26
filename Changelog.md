@@ -14,7 +14,25 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.0.2 [!badge variant="info" text="LATEST"]
+## v1.0.3 [!badge variant="info" text="LATEST"]
+
+Released: May 25, 2024
+
++++ Updated
+- [x] Exam questions now randomize multiple choice questions
+- [x] OTS stats on division management page display correct data
+- [x] Visiting ratio data removed from profile and activity page
+- [x] Announcements are restricted to logged in users only
+- [x] Unauthorized login text is updated
+- [x] Resolved fatal CBT bug causing no access to the modules
+- [x] Academy users can now apply to visit facilities (do not have to be a home controller in VATCAR)
++++ New
+- [x] Added documentation quick-link under profile
++++
+
+---
+
+## v1.0.2
 
 Released: May 22, 2024
 
