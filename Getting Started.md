@@ -23,3 +23,5 @@ Once you complete the entry exam, you are now able to visit or transfer to a fac
 ## Step 4: Welcome!
 
 You have completed everything that is necessary to begin your journey in VATSIM Caribbean Division! We look forward to controlling the skies alongside you!
+
+[!embed](https://drive.google.com/file/d/1QVFSD4fiUvnl0k7rdHxP9an7WaX-IjOY/preview)
