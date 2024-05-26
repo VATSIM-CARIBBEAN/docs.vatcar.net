@@ -6,7 +6,7 @@ order: 40
 
 # Roadmap
 
-This is a master list of all the planned features and updates with a goal, if applicable. Additionally, you can find a master list of all the known bugs at the bottom.
+This is a master list of all the planned features and updates with a goal, if applicable. Additionally, you can find a master list of all the known bugs at the bottom. Resolved bugs and completed items are shown for the next update. For current changes, see the [changelog](/changelog).
 
 ## Planned :icon-checklist:
 
