@@ -18,9 +18,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 - [ ] Make flight board look cooler, have it's own page for a full list [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
-- [x] Visiting ratio now accounts for all ATC connections outside of VATCAR
-- [x] Announcements restricted to logged in users on
-- [x] Add access to the docs website somewhere on the main website
+
 +++
 
 ## Known Bugs :icon-bug:
@@ -36,9 +34,5 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
 - [ ] Delete button is visible on other staff's reply on tickets, should not be.
 +++ Resolved :icon-check:
-- [x] CBT page crashes if there are multiple blocks with no chapters [!badge variant="success" text="Live"]
-- [x] Unauthorized login text updated
-- [x] Academy users can now apply to visit facilities, they do not have to be a home controller here
-- [x] Division stats shows incorrect count based on rating for some facilities
-- [x] Exam multiple choice options should be randomized
+
 +++
