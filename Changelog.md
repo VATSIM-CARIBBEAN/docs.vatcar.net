@@ -36,9 +36,6 @@ Released: May 25, 2024
 
 Released: May 22, 2024
 
-+++ New
-- [x] Tickets and transfer forms show remaining characters needed
-- [x] Added Hit Squad - VATCAR6 has ATM-like permissions for Hit Squad
 +++ Updated
 - [x] Upcoming events on front page fixed
 - [x] Visiting ratio displays correctly
@@ -49,6 +46,9 @@ Released: May 22, 2024
 - [x] Tickets page no longer shows non-existent closed tickets
 - [x] Caribbean FSS and Hit Squad now show at the bottom of the FIR list
 - [x] Updated Caribbean FSS logo
++++ New
+- [x] Tickets and transfer forms show remaining characters needed
+- [x] Added Hit Squad - VATCAR6 has ATM-like permissions for Hit Squad
 +++
 
 ---
