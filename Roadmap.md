@@ -35,10 +35,10 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 - [ ] Exam statistics page leads to nowhere
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
 - [ ] Delete button is visible on other staff's reply on tickets, should not be.
-- [ ] Exam multiple choice options should be randomized
-- [ ] Division stats shows incorrect count based on rating for some facilities
 +++ Resolved :icon-check:
 - [x] CBT page crashes if there are multiple blocks with no chapters [!badge variant="success" text="Live"]
 - [x] Unauthorized login text updated
 - [x] Academy users can now apply to visit facilities, they do not have to be a home controller here
+- [x] Division stats shows incorrect count based on rating for some facilities
+- [x] Exam multiple choice options should be randomized
 +++
