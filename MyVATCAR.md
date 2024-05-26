@@ -4,6 +4,10 @@ icon: person
 order: 90
 ---
 
+==- Video Guide
+[!embed](https://drive.google.com/file/d/1RtIvvznFyxKow5uwr7GEnPKhqcboV4q6/preview)
+===
+
 # My VATCAR
 
 This is your individual profile. All VATCAR related systems that directly affect you is located in this page. You have three different categories on your sidebar:
@@ -64,5 +68,3 @@ If you are looking to change your home facility, you can request to transfer on 
 If you need help with anything related to VATCAR, you can always come here and open a new ticket. All VATSIM division staff members and facility air traffic managers can view your ticket and further assist you. While you have the option to individually email, opening a ticket allows multiple staff members that are capable to assist you, resulting in a better response time.
 
 There is no such thing as a bad ticket!
-
-[!embed](https://drive.google.com/file/d/1RtIvvznFyxKow5uwr7GEnPKhqcboV4q6/preview)

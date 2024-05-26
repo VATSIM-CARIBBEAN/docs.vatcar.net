@@ -4,6 +4,10 @@ icon: rocket
 order: 95
 ---
 
+==- Video Guide
+[!embed](https://drive.google.com/file/d/1QVFSD4fiUvnl0k7rdHxP9an7WaX-IjOY/preview)
+===
+
 # Getting Started
 
 Welcome to VATSIM Caribbean Division! Let's help you get started. After you have logged in on the website using VATSIM's authentication method, you automatically have a profile with us! If you are looking to visit a facility, or get started as a home controller here, you can fill out your appropriate request through this website.
@@ -23,5 +27,3 @@ Once you complete the entry exam, you are now able to visit or transfer to a fac
 ## Step 4: Welcome!
 
 You have completed everything that is necessary to begin your journey in VATSIM Caribbean Division! We look forward to controlling the skies alongside you!
-
-[!embed](https://drive.google.com/file/d/1QVFSD4fiUvnl0k7rdHxP9an7WaX-IjOY/preview)
