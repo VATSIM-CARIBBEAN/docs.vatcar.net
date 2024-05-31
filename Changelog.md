@@ -14,7 +14,29 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.0.3 [!badge variant="info" text="LATEST"]
+## v1.0.4 [!badge variant="info" text="LATEST"]
+
+Released: May 30, 2024
+
++++ New
+- [x] Added Discord Integration!
+    - This will allow users to receive website notifications through direct messages as well. Available notifications are as follows:
+        1. New/Expired/Revoked/Extended solo certifications
+        2. New response to active tickets
+        3. New exam assigned
+        4. Previous failed exam reassigned
+        5. Visiting request update
+        6. Transfer request update
+- [x] New events posted on the website are now automatically posted in the VATCAR discord server
+- [x] New announcements posted on the website are automatically sent in #vatcar-announcements.
++++ Updated
+- [x] Removed Caribbean FSS and Hit Squad from Event Management Page
+- [x] Increased maximum character size for exam questions
++++
+
+---
+
+## v1.0.3
 
 Released: May 25, 2024
 
