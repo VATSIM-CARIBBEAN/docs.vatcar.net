@@ -63,6 +63,8 @@ For inter-division visiting requests, you can submit a form on this page. If you
 
 If you are looking to change your home facility, you can request to transfer on this page. If you meet the requirements to transfer, you will see a form in which you can select your intended facility and a description of why you want to transfer. If you do not meet the requirements, you will see a list of requirements as well as which criteria you fail to meet. Unfortunately, per the VATSIM GCAP, we will be unable to waive any of the criterias you do not meet.
 
+If you are currently not in the VATSIM Caribbean Division, you will instead be given a form to request a division transfer request. If your region is not Americas, you will receive an error and be prompted to the VATSIM's region change request instead. You must be in the Caribbean Division before you can transfer as a home controller into a respective facility.
+
 ### Support Requests
 
 If you need help with anything related to VATCAR, you can always come here and open a new ticket. All VATSIM division staff members and facility air traffic managers can view your ticket and further assist you. While you have the option to individually email, opening a ticket allows multiple staff members that are capable to assist you, resulting in a better response time.
