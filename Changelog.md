@@ -28,7 +28,6 @@ Released: June 12, 2024
 - [x] Discord permission scopes reduced to just identify
 - [x] Ticket and event link updated appropriately
 - [x] Events FIR selection works as intended now
-- [x] Visitor requirement is now S3
 - [x] E-mail responses have been appropriately updated
 +++
 
