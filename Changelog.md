@@ -14,7 +14,27 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.0.4 [!badge variant="info" text="LATEST"]
+## v1.0.5 [!badge variant="info" text="LATEST"]
+
+Released: June 12, 2024
+
++++ New
+- [x] Added Division Transfer Requests and appropriate Admin Panel
+    - If the member is not in VATCAR, the transfer page will show a division transfer request form
+        - If the member is not in the Americas region, they will be prompted to submit a region transfer request
+    - If the member is in VATCAR, the transfer page will show an FIR transfer request form
+- [x] Visitor requirement is now S3
++++ Updated
+- [x] Discord permission scopes reduced to just identify
+- [x] Ticket and event link updated appropriately
+- [x] Events FIR selection works as intended now
+- [x] Visitor requirement is now S3
+- [x] E-mail responses have been appropriately updated
++++
+
+---
+
+## v1.0.4
 
 Released: May 30, 2024
 
