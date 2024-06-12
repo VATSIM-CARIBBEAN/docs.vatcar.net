@@ -34,5 +34,5 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
 - [ ] Delete button is visible on other staff's reply on tickets, should not be.
 +++ Resolved :icon-check:
-
+- [x] New document and current facility button are now both on the right side
 +++
