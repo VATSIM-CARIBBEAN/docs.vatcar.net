@@ -65,7 +65,7 @@ If you are looking to change your home facility, you can request to transfer on 
 
 If you are currently not in the VATSIM Caribbean Division, you will instead be given a form to request a division transfer request. If your region is not Americas, you will receive an error and be prompted to the VATSIM's region change request instead. You must be in the Caribbean Division before you can transfer as a home controller into a respective facility.
 
-[!embed](https://streamable.com/e/2o2icu)
+[!embed](https://streamable.com/2o2icu)
 
 ### Support Requests
 
