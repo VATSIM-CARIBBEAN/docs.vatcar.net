@@ -1,7 +1,7 @@
 ---
 label: "Facility"
 icon: book
-order: 100
+order: 90
 ---
 
 # Facility API
