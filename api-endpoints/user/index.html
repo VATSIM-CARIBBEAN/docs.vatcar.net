@@ -9,24 +9,24 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Event Management</title>
-    <meta name="title" content="Event Management">
-    <meta name="description" content="All event managers have access to this page. This will allow them to create a new event on VATCAR.">
+    <title>User API</title>
+    <meta name="title" content="User API">
+    <meta name="description" content="API Key">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.vatcar.net/management/event-management/">
+    <link rel="canonical" href="https://docs.vatcar.net/api-endpoints/user/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.vatcar.net/management/event-management/">
-    <meta property="og:title" content="Event Management">
-    <meta property="og:description" content="All event managers have access to this page. This will allow them to create a new event on VATCAR.">
+    <meta property="og:url" content="https://docs.vatcar.net/api-endpoints/user/">
+    <meta property="og:title" content="User API">
+    <meta property="og:description" content="API Key">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.vatcar.net/management/event-management/">
-    <meta property="twitter:title" content="Event Management">
-    <meta property="twitter:description" content="All event managers have access to this page. This will allow them to create a new event on VATCAR.">
+    <meta property="twitter:url" content="https://docs.vatcar.net/api-endpoints/user/">
+    <meta property="twitter:title" content="User API">
+    <meta property="twitter:description" content="API Key">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -163,13 +163,64 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="event-management" class="break-words">
+<doc-anchor-target id="user-api" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#event-management">#</doc-anchor-trigger>
-        <span>Event Management</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#user-api">#</doc-anchor-trigger>
+        <span>User API</span>
     </h1>
 </doc-anchor-target>
-<p>All event managers have access to this page. This will allow them to create a new event on VATCAR. Be sure to select appropriate facilities that have the ability to manage this event.</p>
+<doc-anchor-target id="authentication">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#authentication">#</doc-anchor-trigger>
+        <span>Authentication</span>
+    </h2>
+</doc-anchor-target>
+<p>API Key</p>
+<doc-anchor-target id="user">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#user">#</doc-anchor-trigger>
+        <span>User</span>
+    </h2>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">[!badge corners=&quot;round&quot; variant=&quot;success&quot; text=&quot;GET&quot;] https://vatcar.net/public/api/v2/user/:user_cid</code></pre>
+</doc-codeblock></div>
+<doc-panels>
+   <doc-panel id="request">
+       <template #title>Request</template>
+<ul>
+<li>user_cid <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-red-600 bg-red-100 h-6 px-2 text-xs rounded-full">
+    <span>REQUIRED</span>
+</span></li>
+</ul>
+   </doc-panel>
+   <doc-panel id="response" collapsed>
+       <template #title>Response</template>
+<ul>
+<li>success</li>
+<li>data
+<ul>
+<li>cid</li>
+<li>first_name</li>
+<li>last_name</li>
+<li>email_preferences</li>
+<li>facility</li>
+<li>facility_join</li>
+<li>rating</li>
+<li>last_active</li>
+<li>flag_basic</li>
+<li>flag_is_visitor</li>
+<li>flag_xferOverride</li>
+<li>last_api_check</li>
+<li>created_at</li>
+<li>updated_at</li>
+<li>fir</li>
+<li>visiting_facilities</li>
+</ul>
+</li>
+</ul>
+   </doc-panel>
+</doc-panels>
 
                                 
                                 <!-- Required only on API pages -->
@@ -179,20 +230,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../management/fir-management/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../api-endpoints/facility/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">FIR Management</span>
+                                                <span class="block mt-1">Facility</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../management/email-broadcasting/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../faq/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Email Broadcasting</span>
+                                                <span class="block mt-1">Frequently Asked Questions</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -236,6 +287,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Event Management", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "User", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
