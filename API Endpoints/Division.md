@@ -16,7 +16,7 @@ API Key
 https://vatcar.net/public/api/v2/division/events
 ```
 
-=== Request [!badge corners="round" variant="success" text="GET"] 
+==- Request [!badge corners="round" variant="success" text="GET"] 
 
 ==- Response
 - success

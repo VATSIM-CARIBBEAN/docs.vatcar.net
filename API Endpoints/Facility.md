@@ -16,7 +16,7 @@ API Key
 https://vatcar.net/public/api/v2/facility/roster
 ```
 
-=== Request [!badge corners="round" variant="success" text="GET"] 
+==- Request [!badge corners="round" variant="success" text="GET"] 
 
 ==- Response
 - success
@@ -39,7 +39,7 @@ https://vatcar.net/public/api/v2/facility/roster
 https://vatcar.net/public/api/v2/facility/events
 ```
 
-=== Request [!badge corners="round" variant="success" text="GET"] 
+==- Request [!badge corners="round" variant="success" text="GET"] 
 
 ==- Response
 - success
