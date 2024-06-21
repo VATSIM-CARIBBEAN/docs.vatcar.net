@@ -13,7 +13,7 @@ API Key
 ## Roster
 
 ```
-https://vatcar.net/public/api/v2/facility/roster
+[!badge corners="round" variant="success" text="GET"] https://vatcar.net/public/api/v2/facility/roster
 ```
 
 === Request
@@ -36,5 +36,12 @@ https://vatcar.net/public/api/v2/facility/roster
 ## Events
 
 ```
-https://vatcar.net/public/api/v2/facility/events
+[!badge corners="round" variant="success" text="GET"] https://vatcar.net/public/api/v2/facility/events
 ```
+
+=== Request
+
+==- Response
+- success
+- data
+===
