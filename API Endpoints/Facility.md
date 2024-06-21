@@ -1,6 +1,6 @@
 ---
 label: "Facility"
-icon: book
+icon: briefcase
 order: 90
 ---
 

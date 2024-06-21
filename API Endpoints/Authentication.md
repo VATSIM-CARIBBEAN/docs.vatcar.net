@@ -1,6 +1,6 @@
 ---
 label: "Authentication"
-icon: book
+icon: shield-check
 order: 100
 ---
 

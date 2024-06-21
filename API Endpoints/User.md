@@ -1,6 +1,6 @@
 ---
 label: "User"
-icon: book
+icon: person
 order: 80
 ---
 
