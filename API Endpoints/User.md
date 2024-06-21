@@ -1,0 +1,40 @@
+---
+label: "User"
+icon: book
+order: 90
+---
+
+# User API
+
+## Authentication
+
+API Key
+
+## User
+
+```
+[!badge corners="round" variant="success" text="GET"] https://vatcar.net/public/api/v2/user/:user_cid
+```
+
+=== Request
+- user_cid [!badge corners="pill" variant="danger" text="REQUIRED"]
+==- Response
+- success
+- data
+    - cid
+    - first_name
+    - last_name
+    - email_preferences
+    - facility
+    - facility_join
+    - rating
+    - last_active
+    - flag_basic
+    - flag_is_visitor
+    - flag_xferOverride
+    - last_api_check
+    - created_at
+    - updated_at
+    - fir
+    - visiting_facilities
+===
