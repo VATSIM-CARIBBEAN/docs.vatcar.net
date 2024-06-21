@@ -1,14 +1,10 @@
 ---
 label: "Division"
 icon: book
-order: 100
+order: 95
 ---
 
 # Division API
-
-## Authentication
-
-API Key
 
 ## Events
 

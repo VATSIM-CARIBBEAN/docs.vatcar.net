@@ -6,10 +6,6 @@ order: 80
 
 # User API
 
-## Authentication
-
-API Key
-
 ## User
 
 ```

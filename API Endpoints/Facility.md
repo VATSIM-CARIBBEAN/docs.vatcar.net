@@ -6,10 +6,6 @@ order: 90
 
 # Facility API
 
-## Authentication
-
-API Key
-
 ## Roster
 
 ```
