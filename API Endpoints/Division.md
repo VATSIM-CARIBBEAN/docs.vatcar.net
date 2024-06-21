@@ -1,5 +1,5 @@
 ---
-label: "Facility"
+label: "Division"
 icon: book
 order: 100
 ---
