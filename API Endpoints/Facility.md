@@ -18,14 +18,20 @@ https://vatcar.net/public/api/v2/facility/roster
 
 === Request
 
-=== Response
+==- Response
 - success
 - data
+    - facility
+    - staff
+        - atm
+        - datm
+        - ta
+        - ec
+        - fe
+        - wm
+    - controllers
+    - visitors
 ===
-
-
-
-
 
 ## Events
 
