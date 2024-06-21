@@ -21,7 +21,7 @@ API Key
 ==- Response
 - success
 - data
-    - cid
+    - cid 
     - first_name
     - last_name
     - email_preferences
@@ -37,4 +37,17 @@ API Key
     - updated_at
     - fir
     - visiting_facilities
+===
+
+## Notes
+
+```
+[!badge corners="round" variant="success" text="GET"] https://vatcar.net/public/api/v2/user/:user_cid/notes
+```
+
+=== Request
+- user_cid [!badge corners="pill" variant="danger" text="REQUIRED"]
+==- Response
+- success
+- notes
 ===
