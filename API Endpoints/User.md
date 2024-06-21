@@ -13,10 +13,10 @@ API Key
 ## User
 
 ```
-[!badge corners="round" variant="success" text="GET"] https://vatcar.net/public/api/v2/user/:user_cid
+https://vatcar.net/public/api/v2/user/:user_cid
 ```
 
-=== Request
+=== Request [!badge corners="round" variant="success" text="GET"] 
 - user_cid [!badge corners="pill" variant="danger" text="REQUIRED"]
 ==- Response
 - success
@@ -42,10 +42,10 @@ API Key
 ## Notes
 
 ```
-[!badge corners="round" variant="success" text="GET"] https://vatcar.net/public/api/v2/user/:user_cid/notes
+https://vatcar.net/public/api/v2/user/:user_cid/notes
 ```
 
-=== Request
+=== Request [!badge corners="round" variant="success" text="GET"] 
 - user_cid [!badge corners="pill" variant="danger" text="REQUIRED"]
 ==- Response
 - success
