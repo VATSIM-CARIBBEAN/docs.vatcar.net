@@ -14,7 +14,36 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.0.5 [!badge variant="info" text="LATEST"]
+## v1.0.6 [!badge variant="info" text="LATEST"]
+
+Released: June 26, 2024
+
++++ New
+- [x] Added Division Transfer Requests and appropriate Admin Panel
+    - If the member is not in VATCAR, the transfer page will show a division transfer request form
+        - If the member is not in the Americas region, they will be prompted to submit a region transfer request
+    - If the member is in VATCAR, the transfer page will show an FIR transfer request form
+- [x] Visitor requirement is now S3
+- [x] Added UTC time to the topbar
+- [x] Local time is shown for events
+- [x] New flight board page
+    - Improved flight information and images
+    - Heart is depicted on ALL caribbean airports
+- [x] New flight map, shows FIR boundaries, current FIR centers online, and current Caribbean flights
++++ Updated
+- [x] Moved division dropdown to the right side for administrators
+- [x] Removed auto-refresh (it caused issues with certain browsers)
+- [x] Removed internal API
+- [x] Fixed old.vatcar.net redirect message
+- [x] Facility APIs updated
+- [x] Top controllers and facilities were split into two different sections
+- [x] FAQ page updated
+- [x] Certification page shows if user is signed in or not
++++
+
+---
+
+## v1.0.5
 
 Released: June 12, 2024
 
