@@ -30,6 +30,7 @@ Released: June 26, 2024
     - Improved flight information and images
     - Heart is depicted on ALL caribbean airports
 - [x] New flight map, shows FIR boundaries, current FIR centers online, and current Caribbean flights
+- [x] Added cloudflare for better responsiveness
 +++ Updated
 - [x] Moved division dropdown to the right side for administrators
 - [x] Removed auto-refresh (it caused issues with certain browsers)
