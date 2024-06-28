@@ -27,6 +27,7 @@ Released: June 27, 2024
 +++ Updated
 - [x] Flight Track Map is Light Mode
 - [x] Map shows callsign of online center facility
++++
 
 ---
 
