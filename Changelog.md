@@ -14,7 +14,23 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.0.6 [!badge variant="info" text="LATEST"]
+## v1.1.0 [!badge variant="info" text="LATEST"]
+
+Released: June 27, 2024
+
+**Released to the Public**
+
++++ New
+- [x] Opened for public release
+- [x] Added Policy
+- [x] New Division API (internal)
++++ Updated
+- [x] Flight Track Map is Light Mode
+- [x] Map shows callsign of online center facility
+
+---
+
+## v1.0.6
 
 Released: June 26, 2024
 
