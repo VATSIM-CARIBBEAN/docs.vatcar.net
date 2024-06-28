@@ -16,7 +16,6 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Booking system [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
-- [ ] Make flight board look cooler, have it's own page for a full list [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
 
 +++
@@ -33,6 +32,7 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 - [ ] Exam statistics page leads to nowhere
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
 - [ ] Delete button is visible on other staff's reply on tickets, should not be.
+- [ ] CBT modules have to be refreshed to unlock the next content
 +++ Resolved :icon-check:
 - [x] New document and current facility button are now both on the right side
 +++
