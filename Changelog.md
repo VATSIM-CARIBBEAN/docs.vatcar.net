@@ -14,7 +14,27 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.0 [!badge variant="info" text="LATEST"]
+## v1.1.1 [!badge variant="info" text="LATEST"]
+
+Released: July 1, 2024
+
++++ Updated
+- [x] Added entry exam requirement for visitors
+- [x] Event endorsement removed
+- [x] Activity page fixed
+- [x] Visitors are shown better on top controllers
+- [x] Updated acceptance email formatting
+- [x] Piarco Control changed to Piarco Radar on map
+- [x] Top Controllers and Facilities Stats fixed
+- [x] Changed transfer requirement from S1 to OBS
+- [x] Hid unnecessary endorsements to applicable facilities
++++ New
+- [x] Weather data API (internal)
++++
+
+---
+
+## v1.1.0
 
 Released: June 27, 2024
 
