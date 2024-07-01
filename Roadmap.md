@@ -11,6 +11,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
+- [ ] Documents page have custom sub-categories that facilities can create
 - [ ] Update OTS form
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Booking system [!badge variant="ghost" text="Backlog"]
