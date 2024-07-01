@@ -28,6 +28,7 @@ Released: July 1, 2024
 - [x] Top Controllers and Facilities Stats fixed
 - [x] Changed transfer requirement from S1 to OBS
 - [x] Hid unnecessary endorsements to applicable facilities
+- [x] Updated facility images
 +++ New
 - [x] Weather data API (internal)
 +++
