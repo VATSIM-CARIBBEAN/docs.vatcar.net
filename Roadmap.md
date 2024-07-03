@@ -12,13 +12,13 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 +++ In Progress :icon-clock:
 - [ ] Documents page have custom sub-categories that facilities can create
-- [ ] Update OTS form
+
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Booking system [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
-
+- [x] OTS Page removed. Utilize training logs to upload OTS forms.
 +++
 
 ## Known Bugs :icon-bug:
