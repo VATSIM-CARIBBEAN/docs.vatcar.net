@@ -31,8 +31,8 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 - [ ] Webmaster can access email dropdown but not email through staff management page (should be hidden?)
-- [ ] Delete button is visible on other staff's reply on tickets, should not be.
 +++ Resolved :icon-check:
 - [x] New document and current facility button are now both on the right side
 - [x] CBT modules are automatically refreshed when exitting the current module
+- [x] Delete button no longer visible to anyone except division staff members
 +++
