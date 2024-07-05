@@ -14,7 +14,27 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.1 [!badge variant="info" text="LATEST"]
+## v1.1.2 [!badge variant="info" text="LATEST"]
+
+Released: July 4, 2024
+
++++ Updated
+- [x] Endorsements appropriately updated for each facility
+- [x] Discord event notifications fixed so that it only alerts facility controllers
+- [x] Caribbean FSS changed to Caribbean Super Centers with appropriate endorsement names
+- [x] Email and Discord Notifications for division transfer requests
+- [x] OTS marking sheets now viewable
+- [x] Disabled standalone OTS system - use training notes instead
+- [x] CBT modules now automatically refresh the page when exitting
+- [x] Delete button hidden on tickets except for division staff
+- [x] Facility webmasters no longer have access to welcome email settings
+- [x] Transfers from academy, non-members, and inactive facility do not count towards the 90 day transfer requirement
+- [x] Activity page fixed - hours are now accurate for the last 90 days
++++
+
+---
+
+## v1.1.1
 
 Released: July 1, 2024
 
