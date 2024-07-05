@@ -11,13 +11,11 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
-- [ ] Documents page have custom sub-categories that facilities can create
+- [ ] Documents page have custom sub-categories that facilities can create  [!badge variant="ghost" text="Backlog"]
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
-- [ ] Booking system [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
-- [x] OTS Page removed. Utilize training logs to upload OTS forms.
 +++
 
 ## Known Bugs :icon-bug:
@@ -31,8 +29,4 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
-- [x] New document and current facility button are now both on the right side
-- [x] CBT modules are automatically refreshed when exitting the current module
-- [x] Delete button no longer visible to anyone except division staff members
-- [x] Webmaster no longer have access to welcome email page
 +++
