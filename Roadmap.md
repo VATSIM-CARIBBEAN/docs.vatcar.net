@@ -11,6 +11,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
+- [ ] Mentors should be able to add training notes
 - [ ] Documents page have custom sub-categories that facilities can create  [!badge variant="ghost" text="Backlog"]
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
