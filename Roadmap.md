@@ -30,6 +30,7 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 !!!
 
 +++ In Progress :icon-clock:
+- [ ] Facility staff should have instructor privileges
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
 +++
