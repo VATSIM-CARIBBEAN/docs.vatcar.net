@@ -12,7 +12,6 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 +++ In Progress :icon-clock:
 - [ ] Add pilot feedbacks
-
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
@@ -36,7 +35,7 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 !!!
 
 +++ In Progress :icon-clock:
-- [ ] Facility staff should have instructor privileges
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
+- [x] Air Traffic Managers can give endorsements now even without instructor privileges
 +++
