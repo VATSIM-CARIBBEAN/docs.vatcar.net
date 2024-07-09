@@ -37,5 +37,5 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
-- [x] Air Traffic Managers can give endorsements now even without instructor privileges
+- [x] Endorsement page category resolved
 +++
