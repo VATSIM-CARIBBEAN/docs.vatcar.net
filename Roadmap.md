@@ -12,13 +12,18 @@ This is a master list of all the planned features and updates with a goal, if ap
 
 +++ In Progress :icon-clock:
 - [ ] Add pilot feedbacks
-- [ ] Add students being assigned to mentors
-- [ ] Mentors should be able to add training notes
-- [ ] Documents page have custom sub-categories that facilities can create  [!badge variant="ghost" text="Backlog"]
+- [ ] Documents page have custom sub-categories that facilities can create
+    - [ ] Standard Operating Procedures (SOPs)
+    - [ ] Letters of Agreement (LOAs)
+    - [ ] Training Documents
+    - [ ] Policies
+    - [ ] Reference Documents
+    - [ ] Files
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
+- [ ] Add students being assigned to mentors
 +++
 
 ## Known Bugs :icon-bug:
