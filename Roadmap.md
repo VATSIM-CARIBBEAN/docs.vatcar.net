@@ -15,15 +15,6 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
-- [x] Add students being assigned to mentors
-- [x] Documents page have custom sub-categories that facilities can create
-    - [x] Standard Operating Procedures (SOPs)
-    - [x] Letters of Agreement (LOAs)
-    - [x] Training Documents
-    - [x] Policies
-    - [x] Reference Documents
-    - [x] Files
-- [x] Add controller feedbacks
 +++
 
 ## Known Bugs :icon-bug:
@@ -37,5 +28,4 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
-- [x] Endorsement page category resolved
 +++

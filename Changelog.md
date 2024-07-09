@@ -14,7 +14,33 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.2 [!badge variant="info" text="LATEST"]
+## v1.1.3 [!badge variant="info" text="LATEST"]
+
+Released: July 9, 2024
+
++++ New
+- [x] Mentors can now be assigned to students
+    - They have access to My Students page now
+- [x] Document page now have multiple sub-categories
+    - Standard Operating Procedures (SOPs)
+    - Letters of Agreement (LOAs)
+    - Training Documents
+    - Policies
+    - Reference Documents
+    - Files
+- [x] Controller Feedback page added
++++ Updated
+- [x] Endorsement page is now visible by Air Traffic Managers (typo that was resolved)
+- [x] Attempt to DM users that have their Discord DMs closed will no longer cause a fatal error
+- [x] Document categories appropriately aligned
+- [x] Event discord notification fixed
+- [x] Entry exam minor issues fixed 
+- [x] Edit and uploading documents limit increased to 50mb
++++
+
+---
+
+## v1.1.2
 
 Released: July 4, 2024
 
