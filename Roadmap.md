@@ -11,6 +11,9 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
+- [ ] Feedbacks visible to facility staff for their own controllers
+    - Most recent 5 feedback for visiting controllers that are home in VATCAR maybe?
+- [ ] Position bidding system that can be handled by facility event coordinators on events [!badge variant="ghost" text="Backlog"]
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
