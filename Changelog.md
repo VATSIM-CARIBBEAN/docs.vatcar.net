@@ -14,7 +14,20 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.3 [!badge variant="info" text="LATEST"]
+## v1.1.4 [!badge variant="info" text="LATEST"]
+
+Released: July 10, 2024
+
++++ New
+- [x] Added partners page
++++ Updated
+- [x] Feedback page accessible only when logged in
+- [x] Training notes character limit is now 4000
++++
+
+---
+
+## v1.1.3
 
 Released: July 9, 2024
 
