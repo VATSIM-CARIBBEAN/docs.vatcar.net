@@ -13,7 +13,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 +++ In Progress :icon-clock:
 - [ ] Feedbacks visible to facility staff for their own controllers
     - Most recent 5 feedback for visiting controllers that are home in VATCAR maybe?
-- [ ] Position bidding system that can be handled by facility event coordinators on events with a roster publishing by ECs [!badge variant="ghost" text="Backlog"]
+- [ ] Position bidding system that can be handled by facility event coordinators on events with a roster publishing by ECs
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
@@ -30,5 +30,7 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
+- [ ] Transfer request page should use the home controller check to show division transfer request form
+- [ ] Taking entry exam automatically sends everyone to Academy, non-division members should be sent to Non-Members
 +++ Resolved :icon-check:
 +++
