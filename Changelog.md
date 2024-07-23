@@ -14,7 +14,31 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.4 [!badge variant="info" text="LATEST"]
+## v1.1.5 [!badge variant="info" text="LATEST"]
+
+Released: July 22, 2024
+
++++ New
+- [x] New Partners Page
+- [x] Event roster system implemented
+    - Enhancements are still a work in progress, this is just the basic working progress
+    - Positions can be added from the event edit menu, NOT event create menu
+    - Any home/visiting controller can see roster and sign up/remove themselves
+    - Facility Staff, Event Coordinators, and Division Staff can force remove individuals
+
++++ Updated
+- [x] Premature solo certifications being deleted resolved
+- [x] Visitor flag removed once accepted into VATCAR
+- [x] Random documents being deleted resolved
+- [x] Entry exam no longer automatically assigns everyone into VATCAR (breaks transfer page)
+- [x] Appropriate notifications for division staff regarding tickets
+- [x] Rating upgrade button removed
+- [x] Caribbean tech page removed
++++
+
+---
+
+## v1.1.4
 
 Released: July 10, 2024
 
