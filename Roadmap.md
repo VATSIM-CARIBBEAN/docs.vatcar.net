@@ -15,6 +15,10 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Feedbacks visible to facility staff for their own controllers
     - Most recent 5 feedback for visiting controllers that are home in VATCAR maybe?
 - [ ] Enhance event roster system
+    - [ ] Allow staff to freeze rosters
+    - [ ] Allow staff to assign member to roster
+    - [ ] Detect position and automatically separate based on facility (maybe separate input boxes per facilities that have been enabled?)
+- [ ] Controller request form for pilots
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
@@ -33,6 +37,7 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
+- [ ] Divisional crossfire event rosters share the same positions, should be separated
 +++ Resolved :icon-check:
 - [x] Transfer request page should use the home controller check to show division transfer request form
 - [x] Taking entry exam automatically sends everyone to Academy, non-division members should be sent to Non-Members
