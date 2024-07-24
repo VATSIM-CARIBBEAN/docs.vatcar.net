@@ -18,7 +18,9 @@ This is a master list of all the planned features and updates with a goal, if ap
     - [ ] Allow staff to freeze rosters
     - [ ] Allow staff to assign member to roster
     - [ ] Detect position and automatically separate based on facility (maybe separate input boxes per facilities that have been enabled?)
-- [ ] Controller request form for pilots
+    - [ ] Automatically freeze roster once start time has passed
+    - [ ] Send roster update via e-mail and discord notification
+- [ ] Controller request form for pilots [!badge variant="ghost" text="Backlog"]
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
