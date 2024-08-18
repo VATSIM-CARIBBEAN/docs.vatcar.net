@@ -17,7 +17,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Enhance event roster system
     - [ ] Allow staff to freeze rosters
     - [ ] Allow staff to assign member to roster
-    - [ ] Detect position and automatically separate based on facility (maybe separate input boxes per facilities that have been enabled?)
+    - [x] Detect position and automatically separate based on facility
     - [ ] Automatically freeze roster once start time has passed
     - [ ] Send roster update via e-mail and discord notification
 - [ ] Controller request form for pilots [!badge variant="ghost" text="Backlog"]
