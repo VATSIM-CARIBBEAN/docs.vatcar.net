@@ -14,7 +14,30 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.5 [!badge variant="info" text="LATEST"]
+## v1.1.6 [!badge variant="info" text="LATEST"]
+
+Released: August 19, 2024
+
++++ New
+- [x] New Staffing Request Form
+    - Sends an e-mail to VATCAR5 as well as a Discord message
+- [x] Added Tier 2 Endorsement on Roster for TNCF and TJZS
+
+
++++ Updated
+- [x] Added TNCM to San Juan's approach list for accurate display of online facilities
+- [x] Remove visitor flag automatically when transferred into academy
+- [x] Resolved entry exam not being assigned due to user being in academy
+- [x] List paginations updated so it is easier to navigate
+- [x] Division Staff can now see all event rosters
+- [x] Event roster only shows positions that are assigned within the facility
+- [x] Front page carousel pictures randomly chosen between 9 options
+- [x] Training Notes member dropdown shows all controllers for VATCAR Division Staff
+- [x] Minor security updates and code cleanup for efficiency
+
+---
+
+## v1.1.5
 
 Released: July 22, 2024
 
