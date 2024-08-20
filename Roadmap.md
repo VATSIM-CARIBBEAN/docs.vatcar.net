@@ -11,7 +11,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
-- [ ] Support tickets having categories respective to the issue
+
 - [ ] Feedbacks visible to facility staff for their own controllers
     - Most recent 5 feedback for visiting controllers that are home in VATCAR maybe?
 - [ ] Enhance event roster system
@@ -20,13 +20,17 @@ This is a master list of all the planned features and updates with a goal, if ap
     - [x] Detect position and automatically separate based on facility
     - [ ] Automatically freeze roster once start time has passed
     - [ ] Send roster update via e-mail and discord notification
-- [ ] Controller request form for pilots [!badge variant="ghost" text="Backlog"]
 - [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
+- [ ] Support tickets having categories respective to the issue [!badge variant="ghost" text="Backlog"]
+- [ ] Hit Squad activity log management page [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
 - [x] Position bidding system that can be handled by facility event coordinators on events with a roster publishing by ECs
     - Partially completed.
+- [x] Carousel images randomized
+- [x] Training notes dropdown shows all controllers for VATCAR Executive Staff
+- [x] Controller request form for pilots
 +++
 
 ## Known Bugs :icon-bug:
@@ -39,9 +43,10 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
-- [ ] Divisional crossfire event rosters share the same positions, should be separated
 +++ Resolved :icon-check:
 - [x] Transfer request page should use the home controller check to show division transfer request form
 - [x] Taking entry exam automatically sends everyone to Academy, non-division members should be sent to Non-Members
 - [x] Emails sent to appropriate division staff members when new tickets open
+- [x] Divisional crossfire event rosters share the same positions, should be separated
+- [x] Flight map popup is disproportionate
 +++
