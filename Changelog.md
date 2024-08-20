@@ -34,6 +34,7 @@ Released: August 19, 2024
 - [x] Front page carousel pictures randomly chosen between 9 options
 - [x] Training Notes member dropdown shows all controllers for VATCAR Division Staff
 - [x] Minor security updates and code cleanup for efficiency
++++
 
 ---
 
