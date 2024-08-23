@@ -24,13 +24,8 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 - [ ] Support tickets having categories respective to the issue [!badge variant="ghost" text="Backlog"]
-- [ ] Hit Squad activity log management page [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
-- [x] Position bidding system that can be handled by facility event coordinators on events with a roster publishing by ECs
-    - Partially completed.
-- [x] Carousel images randomized
-- [x] Training notes dropdown shows all controllers for VATCAR Executive Staff
-- [x] Controller request form for pilots
+- [x] Hit Squad activity log management page
 +++
 
 ## Known Bugs :icon-bug:
@@ -44,9 +39,4 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
 +++ Resolved :icon-check:
-- [x] Transfer request page should use the home controller check to show division transfer request form
-- [x] Taking entry exam automatically sends everyone to Academy, non-division members should be sent to Non-Members
-- [x] Emails sent to appropriate division staff members when new tickets open
-- [x] Divisional crossfire event rosters share the same positions, should be separated
-- [x] Flight map popup is disproportionate
 +++
