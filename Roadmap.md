@@ -20,7 +20,6 @@ This is a master list of all the planned features and updates with a goal, if ap
     - [x] Detect position and automatically separate based on facility
     - [ ] Automatically freeze roster once start time has passed
     - [ ] Send roster update via e-mail and discord notification
-- [ ] Automatically send e-mail to respective staff member and user when visiting ratio exceeds 50% at the end of each quarter. [!badge variant="ghost" text="Backlog"]
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 - [ ] Support tickets having categories respective to the issue [!badge variant="ghost" text="Backlog"]
