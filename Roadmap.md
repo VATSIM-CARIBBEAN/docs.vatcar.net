@@ -11,8 +11,6 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
-
-- [ ] Controller Initials for San Juan
 - [ ] Feedbacks visible to facility staff for their own controllers
     - Most recent 5 feedback for visiting controllers that are home in VATCAR maybe?
 - [ ] Enhance event roster system
@@ -26,6 +24,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Support tickets having categories respective to the issue [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
 - [x] Hit Squad activity log management page
+- [x] Controller Initials for San Juan
 +++
 
 ## Known Bugs :icon-bug:
