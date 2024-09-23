@@ -14,7 +14,27 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.6 [!badge variant="info" text="LATEST"]
+## v1.1.7 [!badge variant="info" text="LATEST"]
+
+Released: September 22, 2024
+
++++ New
+- [x] New Hitsquad Facility Logs
+- [x] Added Operating Initials for San Juan CERAP
+- [x] New controllers are hidden from the roster until manually activated
+
++++ Updated
+- [x] Feedback page updated
+- [x] Caribbean Super Center documents are public
+- [x] Instructors that are facility staff now have the ability to issue solo certifications
+- [x] New community partner section
+- [x] Fix: Facility Staff couldn't delete documents
+- [x] Added TNCF_APP for approach sector recognition on front page
++++
+
+---
+
+## v1.1.6
 
 Released: August 19, 2024
 
@@ -22,7 +42,6 @@ Released: August 19, 2024
 - [x] New Staffing Request Form
     - Sends an e-mail to VATCAR5 as well as a Discord message
 - [x] Added Tier 2 Endorsement on Roster for TNCF and TJZS
-
 
 +++ Updated
 - [x] Added TNCM to San Juan's approach list for accurate display of online facilities
