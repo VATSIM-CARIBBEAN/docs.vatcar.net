@@ -11,6 +11,7 @@ This is a master list of all the planned features and updates with a goal, if ap
 ## Planned :icon-checklist:
 
 +++ In Progress :icon-clock:
+- [ ] Filter training notes by instructor or mentor
 - [ ] Feedbacks visible to facility staff for their own controllers
     - Most recent 5 feedback for visiting controllers that are home in VATCAR maybe?
 - [ ] Enhance event roster system
