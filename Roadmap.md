@@ -23,9 +23,10 @@ This is a master list of all the planned features and updates with a goal, if ap
 - [ ] Images on support tickets [!badge variant="ghost" text="Backlog"]
 - [ ] Documents page should be duplicated to the management page so staff can remain on the admin panel [!badge variant="ghost" text="Backlog"]
 - [ ] Support tickets having categories respective to the issue [!badge variant="ghost" text="Backlog"]
+- [ ] Inactive controller system (automatic emails, option to assign leave of absence on roster) [!badge variant="ghost" text="Backlog"]
 +++ Completed :icon-check:
-- [x] Hit Squad activity log management page
-- [x] Controller Initials for San Juan
+- [x] Facility staff contact email button redirects to the appropriate facility-issued email address
+- [x] New events are automatically announced in the VATCAR discord with everyone tagged
 +++
 
 ## Known Bugs :icon-bug:
@@ -38,5 +39,6 @@ If you see a bug that is not listed here, send an e-mail to j.swan@vatcar.net wi
 
 +++ In Progress :icon-clock:
 - [ ] Exam statistics page leads to nowhere
+- [ ] Zone Managers need access to exam center for their respective facilities
 +++ Resolved :icon-check:
 +++
