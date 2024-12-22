@@ -14,7 +14,25 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.7 [!badge variant="info" text="LATEST"]
+## v1.1.8 [!badge variant="info" text="LATEST"]
+
+Released: December 22, 2024
+
++++ New
+- [x] New events are automatically announced in the VATCAR discord with everyone tagged
+- [x] Roster now has a visibility option for staff
+
++++ Updated
+- [x] Facility staff contact email button redirects to the appropriate facility-issued email address
+- [x] Fix: Expanded middle bar to fix some text overlapping issues
+- [x] Fix: Reduced number of VATSIM API requests to resolve activity tracking issues
+- [x] Fix: Entry exam issues resolved
+- [x] Instructor facility staff can now issue solo certs
++++
+
+---
+
+## v1.1.7
 
 Released: September 22, 2024
 
