@@ -14,7 +14,23 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.8 [!badge variant="info" text="LATEST"]
+## v1.1.9 [!badge variant="info" text="LATEST"]
+
+Released: December 22, 2024
+
++++ New
+- [x] New Zone Manager position established. Full feature information posted internally.
+
++++ Updated
+- [x] Facility events coordinator email autofills 'events@' instead of 'ec@'
+- [x] Resolved issue regarding individuals who are already in VATCAR having to submit a division transfer request 
+- [x] Hitsquad email broadcasting fixed
+- [x] Solo certifications are now visible to everyone logged in
++++
+
+---
+
+## v1.1.8
 
 Released: December 22, 2024
 
