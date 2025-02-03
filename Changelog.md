@@ -14,7 +14,23 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.9 [!badge variant="info" text="LATEST"]
+## v1.1.10 [!badge variant="info" text="LATEST"]
+
+Released: February 3, 2025
+
++++ New
+- [x] New Training Availability Scheduling System! (Beta, please be patient)
+- [x] New Document API
+- [x] Discord roles automatically sync when integrated with the website
+
++++ Updated
+- [x] Resolved numerous issues regarding email broadcasts
+- [x] Internal update for Nassau roster visibility
++++
+
+---
+
+## v1.1.9
 
 Released: December 22, 2024
 
