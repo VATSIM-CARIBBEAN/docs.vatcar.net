@@ -14,7 +14,33 @@ Have a suggestion? E-mail j.swan@vatcar.net with your suggestion!
 
 ---
 
-## v1.1.10 [!badge variant="info" text="LATEST"]
+## v1.1.11 [!badge variant="info" text="LATEST"]
+
+Released: April 28, 2025
+
++++ New
+- [x] Added calendar feed
+- [x] Added division events for calendar feed visible to staff only
+- [x] Added e-mail notifications and custom time slot booking for instructors
+- [x] Added OTS statistics page for division staff with Discord notifications
+- [x] Discord event announcement will link the Discord event URL
+- [x] Automatic quarterly PDF report sent by email to division staff
+- [x] Monthly top facilities and controllers statistics sent to division staff at the start of each month
+
++++ Updated
+- [x] Minor formatting and design updates
+- [x] Front page top controllers names truncated if it's too long
+- [x] Visitors are assigned roles automatically if linked with Discord
+- [x] Attempted ticket optimizations
+- [x] VATSIM API endpoints updated to v2. Resolved rate limits
+- [x] Announcements tab removed
+- [x] Tickets can no longer be spammed (aka duplicated)
+- [x] Rare fatal bug involving tickets resolved
++++
+
+---
+
+## v1.1.10
 
 Released: February 3, 2025
 
