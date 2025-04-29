@@ -26,6 +26,7 @@ Released: April 28, 2025
 - [x] Discord event announcement will link the Discord event URL
 - [x] Automatic quarterly PDF report sent by email to division staff
 - [x] Monthly top facilities and controllers statistics sent to division staff at the start of each month
+- [x] New feedback dashboard for division staff
 
 +++ Updated
 - [x] Minor formatting and design updates
