@@ -18,14 +18,14 @@ As a new member, you must complete the initial training module which will provid
 
 ## Step 2: Complete the Entry Exam
 
-After completing Step 1, you can now navigate to the Exam Center. If you have not completed the Entry Exam before, you will be prompted to take it. Regardless of your current rating or role in VATSIM, all members must complete the exam. This is only a series of Yes and No questions, acknowleding your intent to respectfully abide by all the regulations set forth of VATSIM and VATCAR.
+After completing Step 1, you can now navigate to the Exam Center. If you have not completed the Entry Exam before, you will be prompted to take it. Regardless of your current rating or role in VATSIM, all members must complete the exam. This is a series of Yes/No questions acknowledging your intent to abide by all VATSIM and VATCAR regulations.
 
 ## Step 3: Request to Transfer or Visit
 
 Once you complete the entry exam, you are now able to visit or transfer to a facility in VATCAR! Navigate to [My VATCAR](https://docs.vatcar.net/myvatcar/) and select either Visiting Requests or Transfer Requests based on your goal. 
 
 !!!warning Warning
-If your home division is not the Caribbean Division and you are applying to transfer into a facility, the form that is shown is for you to request transfer from your current division into the Caribbean Division. You will not be able to transfer into a facility until your region is set to VATCAR.
+If your home division is not Caribbean Division and you're applying to transfer to a facility, you must first transfer divisions. The form shown will request a transfer from your current division to Caribbean Division. You cannot transfer to a facility until your region is set to VATCAR.
 !!!
 
 ## Step 4: Welcome!

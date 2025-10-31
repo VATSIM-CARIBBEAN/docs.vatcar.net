@@ -12,15 +12,15 @@ This page is only accessible to:
 2. Air Traffic Managers
 3. Training Administrators
 
-You are able to search for a controller's profile by entering their VATSIM CID as prompted. You will be able to see everything that is relevant to said controller.
+You can search for a controller's profile by entering their VATSIM CID as prompted. You will be able to see all relevant information for that controller.
 
 ## General
 
-This page shows the name, email address associated with their VATSIM account, their current rating, home FIR, transfer history, rating history, exam results, and current visitor status.
+This page shows the name, email address associated with their VATSIM account, their current rating, home facility, transfer history, rating history, exam results, and current visitor status.
 
 The transfer history only shows transfers that occur within VATCAR. This does not account for other regions.
 
-The exam results show all the exams that the member has taken in VATCAR as well as the associated result. You are able to view their answers they have selected.
+The exam results show all the exams that the member has taken in VATCAR as well as the associated result. You can view the answers they selected.
 
 ## Controller Logs
 

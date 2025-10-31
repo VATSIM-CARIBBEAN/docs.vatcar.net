@@ -61,7 +61,7 @@ On the edit page, you are able to edit more options with the exam. This is also 
     - This lets the student see the results of their exams as they are completing it. This will let them see the correct answer too.
     - This should generally be set to disabled for most facility exams.
 8. Exam Type
-    - You can se the type of exam here. By default, this should be set to FIR Exam.
+    - You can set the type of exam here. By default, this should be set to FIR Exam.
 
 #### Modifying Questions
 
