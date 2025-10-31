@@ -9,7 +9,7 @@ order: 90
 ## Roster
 
 ```
-https://vatcar.net/public/api/v2/facility/roster
+https://vatcar.net/api/v2/facility/roster
 ```
 
 ==- Request [!badge corners="round" variant="success" text="GET"] 
@@ -34,7 +34,7 @@ https://vatcar.net/public/api/v2/facility/roster
 ## Events
 
 ```
-https://vatcar.net/public/api/v2/facility/events
+https://vatcar.net/api/v2/facility/events
 ```
 
 ==- Request [!badge corners="round" variant="success" text="GET"] 
@@ -49,8 +49,12 @@ https://vatcar.net/public/api/v2/facility/events
 ## Documents
 
 ```
-https://vatcar.net/public/api/v2/facility/documents
+https://vatcar.net/api/v2/facility/documents
 ```
+
+!!!danger
+Documents are no longer hosted locally, thus this endpoint is currently unavailable.
+!!!
 
 ==- Request [!badge corners="round" variant="success" text="GET"] 
 

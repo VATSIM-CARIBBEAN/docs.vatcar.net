@@ -9,7 +9,7 @@ order: 80
 ## User
 
 ```
-https://vatcar.net/public/api/v2/user/:user_cid
+https://vatcar.net/api/v2/user/:user_cid
 ```
 
 === Request [!badge corners="round" variant="success" text="GET"] 
@@ -40,7 +40,7 @@ https://vatcar.net/public/api/v2/user/:user_cid
 ## Notes
 
 ```
-https://vatcar.net/public/api/v2/user/:user_cid/notes
+https://vatcar.net/api/v2/user/:user_cid/notes
 ```
 
 === Request [!badge corners="round" variant="success" text="GET"] 

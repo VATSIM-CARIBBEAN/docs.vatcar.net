@@ -9,7 +9,7 @@ order: 95
 ## Events
 
 ```
-https://vatcar.net/public/api/v2/division/events
+https://vatcar.net/api/v2/division/events
 ```
 
 ==- Request [!badge corners="round" variant="success" text="GET"] 
