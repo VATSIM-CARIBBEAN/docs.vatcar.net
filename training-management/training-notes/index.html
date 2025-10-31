@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815214194435">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815215916031">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Training Notes</title>
     <meta name="title" content="Training Notes">
-    <meta name="description" content="This page allows you to view training notes as well as the last 10 most recent notes.">
+    <meta name="description" content="This page allows instructors to view, search, and create training notes for controllers at their facility.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.vatcar.net/training-management/training-notes/">
@@ -20,21 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.vatcar.net/training-management/training-notes/">
     <meta property="og:title" content="Training Notes">
-    <meta property="og:description" content="This page allows you to view training notes as well as the last 10 most recent notes.">
+    <meta property="og:description" content="This page allows instructors to view, search, and create training notes for controllers at their facility.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.vatcar.net/training-management/training-notes/">
     <meta property="twitter:title" content="Training Notes">
-    <meta property="twitter:description" content="This page allows you to view training notes as well as the last 10 most recent notes.">
+    <meta property="twitter:description" content="This page allows instructors to view, search, and create training notes for controllers at their facility.">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.815214194435" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.815215916031" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.815214194435" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.815215916031" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.815214194435" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.815215916031" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -169,7 +169,87 @@
         <span>Training Notes</span>
     </h1>
 </doc-anchor-target>
-<p>This page allows you to view training notes as well as the last 10 most recent notes. When you search for a controller&#x27;s notes, you have the option to create a new training note.</p>
+<p>This page allows instructors to view, search, and create training notes for controllers at their facility.</p>
+<doc-anchor-target id="overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
+        <span>Overview</span>
+    </h2>
+</doc-anchor-target>
+<p>Training notes are records of training sessions, evaluations, and important observations about a controller&#x27;s progress. These notes help track a student&#x27;s development and provide continuity when multiple instructors work with the same student.</p>
+<doc-anchor-target id="viewing-training-notes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#viewing-training-notes">#</doc-anchor-trigger>
+        <span>Viewing Training Notes</span>
+    </h2>
+</doc-anchor-target>
+<p>When you first access the Training Notes page, you&#x27;ll see the 10 most recent training notes created at your facility. This gives you a quick overview of recent training activity.</p>
+<doc-anchor-target id="searching-for-training-notes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#searching-for-training-notes">#</doc-anchor-trigger>
+        <span>Searching for Training Notes</span>
+    </h2>
+</doc-anchor-target>
+<p>To view all training notes for a specific controller:</p>
+<ol>
+<li>Use the search function to find the controller by their VATSIM CID or name</li>
+<li>All training notes for that controller will be displayed</li>
+<li>Notes are sorted by date, with the most recent appearing first</li>
+</ol>
+<doc-anchor-target id="creating-a-training-note">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-a-training-note">#</doc-anchor-trigger>
+        <span>Creating a Training Note</span>
+    </h2>
+</doc-anchor-target>
+<p>After searching for a controller, you can create a new training note:</p>
+<ol>
+<li>Click the &quot;Create New Training Note&quot; button</li>
+<li>Fill in the following information:
+<ul>
+<li><strong>Date/Time</strong>: When the training session occurred</li>
+<li><strong>Training Type</strong>: Select the type of session (e.g., ground training, sweatbox, live network, evaluation)</li>
+<li><strong>Position(s) Trained</strong>: The position(s) covered in the session</li>
+<li><strong>Duration</strong>: How long the session lasted</li>
+<li><strong>Notes</strong>: Detailed observations about the session, including:
+<ul>
+<li>Topics covered</li>
+<li>Controller&#x27;s strengths</li>
+<li>Areas needing improvement</li>
+<li>Next steps or recommendations</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Save the note</li>
+</ol>
+<doc-anchor-target id="best-practices">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#best-practices">#</doc-anchor-trigger>
+        <span>Best Practices</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><strong>Be Specific</strong>: Include concrete examples of what was done well and what needs work</li>
+<li><strong>Be Constructive</strong>: Frame feedback in a way that helps the student improve</li>
+<li><strong>Be Timely</strong>: Create training notes shortly after each session while details are fresh</li>
+<li><strong>Be Complete</strong>: Include enough detail that other instructors can understand the student&#x27;s current level and needs</li>
+<li><strong>Track Progress</strong>: Reference previous notes to show improvement or recurring issues</li>
+</ul>
+<doc-anchor-target id="who-can-see-training-notes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#who-can-see-training-notes">#</doc-anchor-trigger>
+        <span>Who Can See Training Notes?</span>
+    </h2>
+</doc-anchor-target>
+<p>Training notes are visible to:</p>
+<ul>
+<li>The student being trained</li>
+<li>All instructors at the facility</li>
+<li>Facility training staff</li>
+<li>Division training staff</li>
+</ul>
+<p>This transparency ensures students know what feedback they&#x27;ve received and allows for consistent training across multiple instructors.</p>
 
                                 
                                 <!-- Required only on API pages -->

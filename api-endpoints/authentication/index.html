@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815214194435">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815215916031">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Authentication</title>
     <meta name="title" content="Authentication">
-    <meta name="description" content="You can get your facility's API keys in the FIR management panel.">
+    <meta name="description" content="All API requests require authentication using your facility's API key.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.vatcar.net/api-endpoints/authentication/">
@@ -20,21 +20,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.vatcar.net/api-endpoints/authentication/">
     <meta property="og:title" content="Authentication">
-    <meta property="og:description" content="You can get your facility's API keys in the FIR management panel.">
+    <meta property="og:description" content="All API requests require authentication using your facility's API key.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.vatcar.net/api-endpoints/authentication/">
     <meta property="twitter:title" content="Authentication">
-    <meta property="twitter:description" content="You can get your facility's API keys in the FIR management panel.">
+    <meta property="twitter:description" content="All API requests require authentication using your facility's API key.">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.815214194435" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.815215916031" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.815214194435" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.815215916031" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.815214194435" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.815215916031" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.815215916031" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -169,7 +170,26 @@
         <span>Authentication</span>
     </h1>
 </doc-anchor-target>
-<p>You can get your facility&#x27;s API keys in the FIR management panel.</p>
+<p>All API requests require authentication using your facility&#x27;s API key.</p>
+<doc-anchor-target id="obtaining-your-api-key">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#obtaining-your-api-key">#</doc-anchor-trigger>
+        <span>Obtaining Your API Key</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li>Navigate to <strong>FIR Management</strong> &gt; <strong>Web Configuration</strong></li>
+<li>Locate the <strong>API Keys</strong> section</li>
+<li>Copy your facility&#x27;s API key</li>
+<li>Keep this key secure - do not share it publicly or commit it to version control</li>
+</ol>
+<doc-anchor-target id="using-your-api-key">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#using-your-api-key">#</doc-anchor-trigger>
+        <span>Using Your API Key</span>
+    </h2>
+</doc-anchor-target>
+<p>Include your API key in the request header with each API call.</p>
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
     <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
         <span>Header Parameter Name</span>
@@ -178,6 +198,159 @@
 <p>api_key</p>
     </div>
 </div>
+<doc-anchor-target id="example-requests">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-requests">#</doc-anchor-trigger>
+        <span>Example Requests</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="curl">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#curl">#</doc-anchor-trigger>
+        <span>cURL</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">curl -H &quot;api_key: your_api_key_here&quot; \
+  https://vatcar.net/api/v2/facility/roster</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="javascript-fetch-api">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#javascript-fetch-api">#</doc-anchor-trigger>
+        <span>JavaScript (Fetch API)</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-javascript"><code v-pre class="language-javascript">fetch('https://vatcar.net/api/v2/facility/roster', {
+  headers: {
+    'api_key': 'your_api_key_here'
+  }
+})
+.then(response =&gt; response.json())
+.then(data =&gt; console.log(data))
+.catch(error =&gt; console.error('Error:', error));</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="python-requests">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#python-requests">#</doc-anchor-trigger>
+        <span>Python (Requests)</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-python"><code v-pre class="language-python">import requests
+
+headers = {
+    'api_key': 'your_api_key_here'
+}
+
+response = requests.get('https://vatcar.net/api/v2/facility/roster', headers=headers)
+data = response.json()
+print(data)</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="php">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#php">#</doc-anchor-trigger>
+        <span>PHP</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-php"><code v-pre class="language-php">&lt;?php
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, &quot;https://vatcar.net/api/v2/facility/roster&quot;);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    'api_key: your_api_key_here'
+));
+
+$response = curl_exec($ch);
+curl_close($ch);
+
+$data = json_decode($response, true);
+print_r($data);
+?&gt;</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="error-responses">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#error-responses">#</doc-anchor-trigger>
+        <span>Error Responses</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="http-status-codes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#http-status-codes">#</doc-anchor-trigger>
+        <span>HTTP Status Codes</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Status Code</th>
+<th>Description</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>401</td>
+<td>Invalid or missing API key</td>
+<td>Verify your API key is correct and included in the header</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Access denied for this resource</td>
+<td>Contact VATCAR staff to verify your facility&#x27;s API permissions</td>
+</tr>
+<tr>
+<td>429</td>
+<td>Rate limit exceeded</td>
+<td>Wait before making additional requests</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Internal server error</td>
+<td>Contact VATCAR support if the issue persists</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="invalid-api-key-response">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#invalid-api-key-response">#</doc-anchor-trigger>
+        <span>Invalid API Key Response</span>
+    </h3>
+</doc-anchor-target>
+<p>When an invalid API key is provided, the API returns an error response with details:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;error&quot;: &quot;Invalid API key.&quot;,
+  &quot;api_key&quot;: &quot;&quot;
+}</code></pre>
+</doc-codeblock></div>
+<p>The response includes:</p>
+<ul>
+<li><strong>error</strong>: Error message indicating the API key is invalid</li>
+<li><strong>api_key</strong>: The API key that was provided (for debugging purposes)</li>
+</ul>
+<p>If you receive this error, verify that:</p>
+<ol>
+<li>You copied the complete API key from the FIR Management page</li>
+<li>There are no extra spaces or characters in your API key</li>
+<li>Your API key hasn&#x27;t been regenerated or revoked</li>
+</ol>
+<doc-anchor-target id="best-practices">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#best-practices">#</doc-anchor-trigger>
+        <span>Best Practices</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><strong>Never expose your API key</strong> in client-side code or public repositories</li>
+<li><strong>Store API keys securely</strong> using environment variables or secure configuration files</li>
+<li><strong>Implement error handling</strong> to gracefully manage failed requests</li>
+<li><strong>Respect rate limits</strong> to ensure API availability for all facilities</li>
+<li><strong>Use HTTPS</strong> for all API requests (enforced by default)</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
@@ -244,6 +417,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Authentication", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Authentication", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>

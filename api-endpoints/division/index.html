@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815214194435">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.815215916031">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Division API</title>
     <meta name="title" content="Division API">
-    <meta name="description" content="success">
+    <meta name="description" content="Access division-wide information including events and announcements.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.vatcar.net/api-endpoints/division/">
@@ -20,21 +20,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.vatcar.net/api-endpoints/division/">
     <meta property="og:title" content="Division API">
-    <meta property="og:description" content="success">
+    <meta property="og:description" content="Access division-wide information including events and announcements.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.vatcar.net/api-endpoints/division/">
     <meta property="twitter:title" content="Division API">
-    <meta property="twitter:description" content="success">
+    <meta property="twitter:description" content="Access division-wide information including events and announcements.">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.815214194435" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.815215916031" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.815214194435" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.815215916031" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.815214194435" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.815215916031" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.815215916031" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -169,29 +170,110 @@
         <span>Division API</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="events">
+<p>Access division-wide information including events and announcements.</p>
+<doc-anchor-target id="get-division-events">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#events">#</doc-anchor-trigger>
-        <span>Events</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#get-division-events">#</doc-anchor-trigger>
+        <span>Get Division Events</span>
     </h2>
 </doc-anchor-target>
+<p>Retrieve all upcoming and recent events for the Caribbean Division.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-none"><code v-pre class="language-none">https://vatcar.net/api/v2/division/events</code></pre>
+<pre translate="no" class="language-none"><code v-pre class="language-none">GET https://vatcar.net/api/v2/division/events</code></pre>
 </doc-codeblock></div>
 <doc-panels>
    <doc-panel id="request-badge-cornersround-variantsuccess-textget" collapsed>
        <template #title>Request <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-success-text bg-badge-success border border-badge-success-border h-6 px-2 text-xs rounded-md">
     <span>GET</span>
 </span></template>
+<p>No parameters required.</p>
    </doc-panel>
    <doc-panel id="response" collapsed>
        <template #title>Response</template>
 <ul>
-<li>success</li>
-<li>data</li>
+<li>success - String message indicating request status</li>
+<li>data - Array of event objects containing event details
+<ul>
+<li>id - Event ID (integer)</li>
+<li>name - Event name</li>
+<li>description - Full event description (supports markdown/HTML)</li>
+<li>image_url - URL to event banner/promotional image</li>
+<li>start - Event start time (Y-m-d H:i:s format)</li>
+<li>end - Event end time (Y-m-d H:i:s format)</li>
+<li>airports - Object containing arrival and departure airport arrays</li>
+<li>positions - Staffed positions (nullable)</li>
+<li>forum_event_id - Associated forum event ID (nullable)</li>
+<li>facilities - Bitmask of participating facilities</li>
+<li>user_cid - CID of user who created event</li>
+<li>edit_cid - CID of user who last edited event</li>
+<li>created_at - Creation timestamp</li>
+<li>updated_at - Last update timestamp</li>
+</ul>
+</li>
 </ul>
    </doc-panel>
 </doc-panels>
+<doc-anchor-target id="example-request">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-request">#</doc-anchor-trigger>
+        <span>Example Request</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">curl -H &quot;api_key: your_api_key_here&quot; \
+  https://vatcar.net/api/v2/division/events</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="example-response">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-response">#</doc-anchor-trigger>
+        <span>Example Response</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;success&quot;: &quot;Fetched successfully&quot;,
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: 145,
+      &quot;name&quot;: &quot;Caribbean Flight Night&quot;,
+      &quot;description&quot;: &quot;Join us for a special event covering major Caribbean airports with full ATC coverage. Experience the beauty of island hopping across the Caribbean region.&quot;,
+      &quot;image_url&quot;: &quot;https://vatcar-cdn.nyc3.cdn.digitaloceanspaces.com/public/events/caribbean-flight-night.png&quot;,
+      &quot;start&quot;: &quot;2024-11-15 18:00:00&quot;,
+      &quot;end&quot;: &quot;2024-11-15 22:00:00&quot;,
+      &quot;airports&quot;: {
+        &quot;arrival&quot;: [&quot;TJSJ&quot;, &quot;MDSD&quot;, &quot;TNCM&quot;],
+        &quot;departure&quot;: [&quot;TJSJ&quot;, &quot;MDSD&quot;, &quot;TNCM&quot;]
+      },
+      &quot;positions&quot;: null,
+      &quot;forum_event_id&quot;: null,
+      &quot;facilities&quot;: 136,
+      &quot;user_cid&quot;: 1234567,
+      &quot;edit_cid&quot;: 1234567,
+      &quot;created_at&quot;: &quot;2024-10-01T10:00:00.000000Z&quot;,
+      &quot;updated_at&quot;: &quot;2024-10-15T14:30:00.000000Z&quot;
+    },
+    {
+      &quot;id&quot;: 144,
+      &quot;name&quot;: &quot;Juliana Monthly Fly-In&quot;,
+      &quot;description&quot;: &quot;Experience the famous Maho Beach approach at Princess Juliana International Airport (TNCM). Controllers from Curacao FIR will provide top-notch ATC services.&quot;,
+      &quot;image_url&quot;: &quot;https://vatcar-cdn.nyc3.cdn.digitaloceanspaces.com/public/events/juliana-flyin.png&quot;,
+      &quot;start&quot;: &quot;2024-11-08 17:00:00&quot;,
+      &quot;end&quot;: &quot;2024-11-08 20:00:00&quot;,
+      &quot;airports&quot;: {
+        &quot;arrival&quot;: [&quot;TNCM&quot;],
+        &quot;departure&quot;: [&quot;TNCM&quot;]
+      },
+      &quot;positions&quot;: null,
+      &quot;forum_event_id&quot;: null,
+      &quot;facilities&quot;: 2,
+      &quot;user_cid&quot;: 7654321,
+      &quot;edit_cid&quot;: 7654321,
+      &quot;created_at&quot;: &quot;2024-09-28T08:15:00.000000Z&quot;,
+      &quot;updated_at&quot;: &quot;2024-10-01T12:00:00.000000Z&quot;
+    }
+  ]
+}</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -258,6 +340,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Division", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Division", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
